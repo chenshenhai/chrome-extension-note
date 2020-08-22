@@ -1,0 +1,22 @@
+{
+  "name": "chrome-extension-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenshenhai/chrome-extension-note.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenshenhai/chrome-extension-note/issues"
+  },
+  "homepage": "https://github.com/chenshenhai/chrome-extension-note#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.122"
+  }
+}
