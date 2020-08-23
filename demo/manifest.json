@@ -15,13 +15,20 @@
     "default_popup": "html/popup.html"
   },
   "background": {
-    "scripts": ["js/background.js"],
+    "page": "html/background.html",
     "persistent": false
   },
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["js/content-script.js"]
+      "js": [
+        "js/content-script.js"
+      ]
     }
+  ],
+  "web_accessible_resources": [
+    "js/content/global.js",
+    "js/view/sider.js",
+    "js/view/dom.js"
   ]
 }
