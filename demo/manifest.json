@@ -28,7 +28,7 @@
   ],
   "web_accessible_resources": [
     "js/content/global.js",
-    "js/view/sider.js",
+    "js/view/render-sider.js",
     "js/view/dom.js"
   ]
 }

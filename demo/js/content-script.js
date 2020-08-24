@@ -10,7 +10,7 @@ load('js/content/global.js');
 
 chrome.runtime.onMessage.addListener((req, sender, sendResponse) => {
   if (req.name === 'content-script/render/sider') {
-    load('js/view/sider.js');
+    load('js/view/render-sider.js');
   }
   sendResponse({ success: true, });
 });
